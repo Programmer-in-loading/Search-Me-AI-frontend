@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Search-Me-AI-frontend/static/css/main.82a8dfb1.css",
+    "main.js": "/Search-Me-AI-frontend/static/js/main.94bd6544.js",
+    "static/js/787.cda612ba.chunk.js": "/Search-Me-AI-frontend/static/js/787.cda612ba.chunk.js",
+    "static/media/intro.png": "/Search-Me-AI-frontend/static/media/intro.8bdd2a4f3ae7119968cd.png",
+    "static/media/data-science.png": "/Search-Me-AI-frontend/static/media/data-science.2e76eaba5fa41210f2eb.png",
+    "static/media/computer-network.png": "/Search-Me-AI-frontend/static/media/computer-network.823a01ad510b68f3d647.png",
+    "static/media/c++.png": "/Search-Me-AI-frontend/static/media/c++.c417f91d77a7ff6b1329.png",
+    "static/media/database.png": "/Search-Me-AI-frontend/static/media/database.4802e5b98b8cc1ceb073.png",
+    "static/media/Logo2.jpeg": "/Search-Me-AI-frontend/static/media/Logo2.0e78654074a394e5aeb3.jpeg",
+    "static/media/microsoft-windows.png": "/Search-Me-AI-frontend/static/media/microsoft-windows.7570c8efa2e70b3993c5.png",
+    "index.html": "/Search-Me-AI-frontend/index.html",
+    "main.82a8dfb1.css.map": "/Search-Me-AI-frontend/static/css/main.82a8dfb1.css.map",
+    "main.94bd6544.js.map": "/Search-Me-AI-frontend/static/js/main.94bd6544.js.map",
+    "787.cda612ba.chunk.js.map": "/Search-Me-AI-frontend/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a8dfb1.css",
+    "static/js/main.94bd6544.js"
+  ]
+}
