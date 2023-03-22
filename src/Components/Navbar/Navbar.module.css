@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+}
+.navbar_part1{
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    gap: 3rem;
+}
+.navbar_part2{
+    display: flex;
+    flex: 50%;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 9rem;
+    width: 18rem;
+    background-image: url("./Logo2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about,.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.about>h5,.home>h5{
+    font-size: 2rem;
+}
+
+

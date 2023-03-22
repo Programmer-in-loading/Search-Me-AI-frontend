@@ -1,0 +1,135 @@
+.intro_box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    display: flex;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+.intro_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex: 40%;
+}
+.intro_image{
+    display: flex;
+    height: 50rem;
+    flex: 60%;
+    background-image: url("./intro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.message{
+    height: 10rem;
+    width: 50rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color:#f3ffbd; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #011627;
+}
+
+.brief{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 5rem;
+    width: 30rem;
+    color: #011627;
+}
+
+.button>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 5rem;
+    border: 4px solid black;
+    border-radius: 4rem;
+    background-color: #011627;
+    color:#f3ffbd; ;
+}
+.top_categories_box{
+    padding-top: 2rem;
+    background-color: #eef3f9;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_categories_box>h1{
+    font-size: 4rem;
+}
+.top_categories{
+    width: 90rem;
+    height:50rem ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top_category{
+    height: 20rem;
+    width: 25rem;
+    border: 4px solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.top_category>h5{
+    font-size: 2rem;
+}
+
+
+/* Site information section begins */
+.br{
+    height:15rem;
+    border-right:2px solid black ;
+}
+
+.site_information{
+    width:100vw;
+    height:20rem;
+    background-color: #fbcd60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site_information>div{
+    width: 20rem;
+    height: 15rem;
+    padding: 0rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.heading1{
+    font-size: 6rem;
+    text-align: center;
+    
+}
+.heading2{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}

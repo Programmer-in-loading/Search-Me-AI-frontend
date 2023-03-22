@@ -1,0 +1,60 @@
+.footer_box{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#04151f;
+}
+.two_box{
+    width:120rem ;
+    display: flex;
+    border-bottom: 2px solid #f3ffbd; 
+}
+.about{
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    color: #f3ffbd;
+    flex:50%;
+    gap: 1rem;
+}
+.about>h3{
+    font-size: 3rem;
+}
+.quick_links{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    gap: 1rem;
+}
+
+.quick_links_list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.quick_links>div{
+    text-align: center;
+    font-size: 2rem;
+    color: #f3ffbd;
+    height: 3rem;
+    width: 100%;
+}
+.quick_links>h3{
+    font-size: 3rem;
+    color:#f3ffbd
+}
+
+.mesaage{
+    width: 80rem;
+    display: flex;
+    flex-direction:column;
+}
+.message>div{
+    color:#f3ffbd;
+    text-align: center;
+    font-size: 2rem;
+}
