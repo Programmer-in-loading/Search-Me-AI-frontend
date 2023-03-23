@@ -1,33 +1,39 @@
 .footer_box{
-    padding-top: 2rem;
+    padding-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:#04151f;
+    width: 100vw;
 }
 .two_box{
     width:120rem ;
     display: flex;
     border-bottom: 2px solid #f3ffbd; 
+    padding-bottom: 1rem;
 }
 .about{
-    height: 18rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     font-size: 1.8rem;
     color: #f3ffbd;
     flex:50%;
-    gap: 1rem;
+    gap: 2rem;
+    flex: 50%;
+    border-right:2px solid #f3ffbd; 
+    padding-right:15rem;
 }
 .about>h3{
     font-size: 3rem;
+    text-align: center;
 }
 .quick_links{
     display: flex;
     flex-direction: column;
-    flex: 50%;
-    gap: 1rem;
+    flex:50%;
+    gap: 2rem;
 }
 
 .quick_links_list{
@@ -45,13 +51,16 @@
 }
 .quick_links>h3{
     font-size: 3rem;
-    color:#f3ffbd
+    color:#f3ffbd;
+    text-align: center;
 }
 
-.mesaage{
+.message{
+    margin-top: 2rem;
     width: 80rem;
     display: flex;
     flex-direction:column;
+    gap: 1rem;
 }
 .message>div{
     color:#f3ffbd;

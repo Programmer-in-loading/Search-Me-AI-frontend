@@ -7,13 +7,14 @@ import database from "./database.png";
 import microsoft from "./microsoft-windows.png";
 import python from "./python.png";
 import computer from "./computer-network.png";
-const Home = () => {
+const Home = (props) => {
+  const loading =props.loading;
   const full_message = "Empowering next generation of tech leaders.";
   const [message, setmessage] = useState("");
   const [display, setdisplay] = useState("none");
   useEffect(() => {
     display_message();
-  }, []);
+  }, [loading]);
   useEffect(() => {
     setdisplay(`${display === "none" ? "block" : "none"}`);
   }, [message]);
@@ -61,6 +62,7 @@ const Home = () => {
   ];
   return (
     <>
+    <div>
       <div className={styles.intro_box}>
         <div className={styles.intro}>
           <div className={styles.intro_left}>
@@ -115,6 +117,7 @@ const Home = () => {
           <h4 className={styles.heading1}>700K+</h4>
           <h4 className={styles.heading2}>followers on twitter</h4>
         </div>
+      </div>
       </div>
     </>
   );

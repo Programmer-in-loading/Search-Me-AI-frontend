@@ -1,5 +1,13 @@
 .navbar{
     display: flex;
+    position: sticky;
+    top: 0;
+    background-color:#e6e6e6;
+}
+.sticky{
+  width: 100vw;  
+  position: fixed;
+  top: 0;
 }
 .navbar_part1{
     display: flex;
@@ -17,7 +25,7 @@
 .logo{
     height: 9rem;
     width: 18rem;
-    background-image: url("./Logo2.jpeg");
+    background-image: url("./logo2_bg_clear.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
