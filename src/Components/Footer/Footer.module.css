@@ -67,3 +67,22 @@
     text-align: center;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 780px) {
+    .two_box{
+        flex-direction: column;
+        height: 40rem;
+        width: 60rem;
+        gap: 1rem;
+    }
+
+    .about
+    {
+        padding: 0;
+        border-right: 0;
+        border-bottom: 2px solid #f3ffbd;;
+    }
+    .about>div{
+        text-align: center;
+    }
+}

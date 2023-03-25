@@ -133,3 +133,53 @@
     text-align: center;
     
 }
+
+@media screen and (max-width: 780px) {
+    .message{
+    height: 7rem;
+    width: 30rem;
+    font-size: 2rem;
+    }
+    .intro_box{
+        width: 100vw;
+    }
+    .intro{
+        flex-direction: column;
+        height: 60rem;
+        align-items: center;
+    }
+     
+    .button>button{
+        font-size: 2rem;
+    }
+    
+    .intro_image{
+        background-image: url("./intro2.png");
+        height: 30rem;
+        width: 60rem;
+    }
+    .top_categories{
+        margin-top: 1rem;
+        width: 40rem;
+        height: 150rem;
+        flex-direction: column;
+    }
+    .top_category{
+           width: 30rem;
+    }
+    .site_information{
+        flex-direction: column;
+        height: 50rem;
+    }
+
+    .heading2{
+        font-size: 2rem;
+    }
+    .site_information>div{
+        height: 10rem;
+    }
+
+    .bb{
+        border-bottom:2px solid black ;
+    }
+}

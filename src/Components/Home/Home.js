@@ -12,6 +12,7 @@ const Home = (props) => {
   const full_message = "Empowering next generation of tech leaders.";
   const [message, setmessage] = useState("");
   const [display, setdisplay] = useState("none");
+  const screenwidth=window.innerWidth
   useEffect(() => {
     display_message();
   }, [loading]);
@@ -101,19 +102,19 @@ const Home = (props) => {
         </div>
       </div>
       <div className={styles.site_information}>
-        <div className={`${styles.youtube} ${styles.br}`}>
+        <div className={`${styles.youtube} ${screenwidth<=780?styles.bb:styles.br}`}>
           <h4 className={styles.heading1}>700K+</h4>
           <h4 className={styles.heading2}>followers on twitter</h4>
         </div>
-        <div className={`${styles.youtube} ${styles.br}`}>
+        <div className={`${styles.youtube} ${screenwidth<=780?styles.bb:styles.br}`}>
           <h4 className={styles.heading1}>700K+</h4>
           <h4 className={styles.heading2}>followers on twitter</h4>
         </div>
-        <div className={`${styles.youtube} ${styles.br}`}>
+        <div className={`${styles.youtube} ${screenwidth<=780?styles.bb:styles.br}`}>
           <h4 className={styles.heading1}>700K+</h4>
           <h4 className={styles.heading2}>followers on twitter</h4>
         </div>
-        <div className={`${styles.youtube}`}>
+        <div className={`${styles.youtube} ${screenwidth<=780?styles.bb:""}`}>
           <h4 className={styles.heading1}>700K+</h4>
           <h4 className={styles.heading2}>followers on twitter</h4>
         </div>

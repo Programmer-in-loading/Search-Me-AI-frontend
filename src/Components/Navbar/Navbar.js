@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import styles from "./Navbar.module.css";
 import HomeIcon from "@material-ui/icons/Home";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -7,8 +7,43 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 const Navbar = () => {
+  const [screenwidth, setscreenwidth] = useState(window.innerWidth);
+  const [navbar_display,setnavbardisplay]=useState("flex");
+  const [options_display,setoptionsdisplay]=useState("none");
+
+  const changedisplay=()=>{
+       setnavbardisplay(`${navbar_display==="none"?"flex":"none"}`)
+       setoptionsdisplay(`${options_display==="none"?"flex":"none"}`)
+  }
+
+  if(screenwidth<=780)
+  return(<>
+  <div className={styles.navbar_mini} style={{display:navbar_display}}>
+    <div className={styles.navbar_mini_part1} onClick={changedisplay}>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div className={styles.navbar_mini_part2}>
+      <div className={styles.logo_mini}></div>
+    </div>
+  </div>
+  <div className={styles.hamburger_options}  style={{display:options_display}}> 
+    <div className={styles.options}>
+    <div>Home</div>
+    <div>About</div>
+    <div>Hello</div>
+    <div>Hii</div>
+    <div>Bye</div>
+    </div>
+    <div className={styles.cross} onClick={changedisplay}>X</div>
+  </div>
+  </>)
+  else
   return (
-    <div className={styles.navbar}>
+    <div
+      className={styles.navbar}
+    >
       <div className={styles.navbar_part1}>
         <div className={styles.logo}></div>
         <div className={styles.home}>

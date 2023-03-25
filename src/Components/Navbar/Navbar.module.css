@@ -3,6 +3,7 @@
     position: sticky;
     top: 0;
     background-color:#e6e6e6;
+    width: 100vw;
 }
 .sticky{
   width: 100vw;  
@@ -41,3 +42,79 @@
 }
 
 
+@media screen and (max-width: 780px) {
+   .navbar{
+    display: none;
+   }
+   .navbar_mini{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background-color:#e6e6e6;
+   }
+
+   .navbar_mini_part1{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex:10%;
+    gap:0.2rem;
+    padding: 0.2rem 0rem;
+   }
+   .navbar_mini_part1>div{
+    width: 5rem;
+    height: 0.5rem;
+    background-color: black;
+    border: 0.2px solid black;
+    border-radius: 1rem;
+   }
+
+   .navbar_mini_part2{
+    display: flex;
+    justify-content: center;
+    flex:90%;
+   }
+
+   .logo_mini{
+    height: 7rem;
+    width: 12rem;
+    background-image: url("./logo2_bg_clear.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 11%;
+   }
+   
+   .hamburger_options{
+    width: 100vw;
+    background-color:#e6e6e6;
+    opacity:0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    z-index: 2;
+   }
+
+   .options{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .options>div{
+    font-size: 4rem;
+   }
+   .cross{
+    height: 20rem;
+    text-align: center;
+    font-size: 2rem;
+   }
+
+}

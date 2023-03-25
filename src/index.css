@@ -6,3 +6,27 @@ html{
   font-size: 10px;
   background-color: #ffffff;
 }
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 6px;
+  }
+} 
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 4px;
+  }
+} 
+
+@media screen and (max-width: 330px) {
+  html {
+    font-size: 3px;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  html {
+    font-size: 2px;
+  }
+}
